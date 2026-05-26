@@ -1,0 +1,37 @@
+# Dependency folders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+client/dist/
+client/dist-ssr/
+
+# Environment configurations and keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+server/.env.local
+
+# Database persistent fallback and locks
+server/config/db.json
+
+# Log files and diagnostic traces
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System-specific and IDE folders
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
